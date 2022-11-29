@@ -79,7 +79,9 @@
     
 }
 
-
+.cmpny{
+    background-color: #01BAEF;
+}
 
 /* .react-swipeable-view-container  div{
     overflow: hidden;
@@ -88,6 +90,9 @@
 .form-control{
     height: calc(1em + 1.1rem + 1px);
     padding: 0.25rem 0.75rem;
+    border: 1px solid #525f7f;
+    border-radius: 3px;
+    color : black !important;
 }
 
 .MuiBox-root >header{

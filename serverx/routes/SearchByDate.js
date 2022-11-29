@@ -7,7 +7,7 @@ router.post("/searchbydate", auth, async (req, res) => {
   
   
   const branchexist = await Chequeslips.find({
-    $and: [{ depositdate: {$gt:req.body.startDate,$lt:req.body.endDate} }, { userid: req.userId }],
+    $and: [{ chequedate: {$gte:req.body.startDate,$lte:req.body.endDate} }, { userid: req.userId }],
   });
   if (branchexist) {
     return res.status(200).send(branchexist);

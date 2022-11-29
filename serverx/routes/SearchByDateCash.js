@@ -7,7 +7,7 @@ router.post("/searchbydatecash", auth, async (req, res) => {
   
   
   const slipexist = await CashSlips.find({
-    $and: [{ depositdate: {$gt:req.body.startDate,$lt:req.body.endDate} }, { userid: req.userId }],
+    $and: [{ depositdate: {$gte:req.body.startDate,$lte:req.body.endDate} }, { userid: req.userId }],
   });
   if (slipexist) {
     return res.status(200).send(slipexist);

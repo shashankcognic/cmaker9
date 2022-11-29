@@ -402,12 +402,12 @@ const Company = () => {
         <div>
           <Container className="mt--0" fluid>
             <div>
-              <Card className="bg-secondary shadow">
-                <CardBody className="p-1">
+              <Card className="shadow card-bg">
+                <CardBody>
                   {checked === false && next === false ? (
                     <div>
                       <Row className="mt--0">
-                        <div className="col">
+                        <div className="col ">
                           <Card className="shadow">
                             <CardHeader className="text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
                               <div className="d-flex justify-content-between">
@@ -493,7 +493,7 @@ const Company = () => {
                       </h6>
                       <div className="pl-lg-4">
                         <Row>
-                          <Col lg="6">
+                          <Col lg="4">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -505,7 +505,6 @@ const Company = () => {
                                 className="form-control-alternative"
                                 defaultValue=""
                                 id="input-username"
-                                placeholder="company name"
                                 type="text"
                                 value={firmname}
                                 onChange={(e) => {
@@ -514,7 +513,7 @@ const Company = () => {
                               />
                             </FormGroup>
                           </Col>
-                          <Col lg="6">
+                          <Col lg="4">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -525,7 +524,6 @@ const Company = () => {
                               <Input
                                 className="form-control-alternative"
                                 id="input-email"
-                                placeholder="xyz@example.com"
                                 type="email"
                                 value={email}
                                 onChange={(e) => {
@@ -543,7 +541,7 @@ const Company = () => {
                       </h6>
                       <div className="pl-lg-4">
                         <Row>
-                          <Col md="12">
+                          <Col md="8">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -555,7 +553,6 @@ const Company = () => {
                                 className="form-control-alternative"
                                 defaultValue=""
                                 id="input-address"
-                                placeholder="Company Address"
                                 type="text"
                                 value={address}
                                 onChange={(e) => {
@@ -566,7 +563,7 @@ const Company = () => {
                           </Col>
                         </Row>
                         <Row>
-                          <Col lg="4">
+                          <Col lg="3">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -578,7 +575,6 @@ const Company = () => {
                                 className="form-control-alternative"
                                 defaultValue=""
                                 id="input-city"
-                                placeholder="City"
                                 type="text"
                                 value={city}
                                 onChange={(e) => {
@@ -587,7 +583,7 @@ const Company = () => {
                               />
                             </FormGroup>
                           </Col>
-                          <Col lg="4">
+                          <Col lg="3">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -599,7 +595,6 @@ const Company = () => {
                                 className="form-control-alternative"
                                 defaultValue=""
                                 id="input-country"
-                                placeholder="State"
                                 type="text"
                                 value={state}
                                 onChange={(e) => {
@@ -608,7 +603,7 @@ const Company = () => {
                               />
                             </FormGroup>
                           </Col>
-                          <Col lg="4">
+                          <Col lg="3">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -619,7 +614,6 @@ const Company = () => {
                               <Input
                                 className="form-control-alternative"
                                 id="input-postal-code"
-                                placeholder="Postal code"
                                 type="number"
                                 value={pincode}
                                 onChange={(e) => {
@@ -630,7 +624,7 @@ const Company = () => {
                           </Col>
                         </Row>
                         <Row>
-                          <Col lg="6">
+                          <Col lg="4">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -642,7 +636,6 @@ const Company = () => {
                                 className="form-control-alternative"
                                 defaultValue=""
                                 id="input-username"
-                                placeholder="contact number"
                                 type="text"
                                 value={phonenumber}
                                 onChange={(e) => {
@@ -651,7 +644,7 @@ const Company = () => {
                               />
                             </FormGroup>
                           </Col>
-                          <Col lg="6">
+                          <Col lg="4">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -662,7 +655,7 @@ const Company = () => {
                               <Input
                                 className="form-control-alternative"
                                 id="input-email"
-                                placeholder="contact number2"
+                               
                                 type="text"
                                 value={phonenumber2}
                                 onChange={(e) => {
@@ -680,7 +673,7 @@ const Company = () => {
                       </h6>
                       <div className="pl-lg-4">
                         <Row>
-                          <Col lg="6">
+                          <Col lg="4">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -692,7 +685,7 @@ const Company = () => {
                                 className="form-control-alternative"
                                 defaultValue=""
                                 id="input-username"
-                                placeholder="GSTIN"
+                               
                                 type="text"
                                 value={gstin}
                                 onChange={(e) => {
@@ -701,7 +694,7 @@ const Company = () => {
                               />
                             </FormGroup>
                           </Col>
-                          <Col lg="6">
+                          <Col lg="4">
                             <FormGroup>
                               <label
                                 className="form-control-label"
@@ -712,7 +705,7 @@ const Company = () => {
                               <Input
                                 className="form-control-alternative"
                                 id="input-email"
-                                placeholder="pan card "
+                               
                                 type="text"
                                 value={pancard}
                                 onChange={(e) => {
@@ -734,8 +727,7 @@ const Company = () => {
                             BANK INFORMATION
                           </h6>
                           <div className="pl-lg-4">
-                            <Row>
-                              <Col lg="4">
+                          <Col lg="4">
                                 <label
                                   className="form-control-label"
                                   htmlFor="bankname"
@@ -749,7 +741,7 @@ const Company = () => {
                                     disablePortal
                                     id="bankname"
                                     options={bankdata}
-                                    sx={{ width: 300 }}
+                                    sx={{ width: 300 , height : '10' }}
                                     renderInput={(params) => (
                                       <TextField {...params} />
                                     )}
@@ -773,9 +765,10 @@ const Company = () => {
                                   />
                                 </div>
                               </Col>
+                            <Row>
                               <Col lg="4">
                                 <FormGroup>
-                                  <label className="ifsc" htmlFor="input-email">
+                                  <label className="ifsc form-control-label" htmlFor="input-email">
                                     IFSC CODE
                                   </label>
 
@@ -783,7 +776,7 @@ const Company = () => {
                                     name="ifsc"
                                     className="form-control-alternative"
                                     id="ifsc"
-                                    placeholder="Ifsc code"
+                                   
                                     type="text"
                                     value={element.ifsc || ""}
                                     onChange={(e) => {
@@ -795,7 +788,7 @@ const Company = () => {
 
                               <Col lg="4">
                                 <FormGroup>
-                                  <label className="branch" htmlFor="branch">
+                                  <label className="branch form-control-label" htmlFor="branch">
                                     BRANCH NAME
                                   </label>
                                   <Input
@@ -803,7 +796,7 @@ const Company = () => {
                                     className="form-control-alternative"
                                     defaultValue=""
                                     id="branch"
-                                    placeholder="Branch Name"
+                                   
                                     type="text"
                                     value={element.branch || ""}
                                     onChange={(e) => {
@@ -815,7 +808,7 @@ const Company = () => {
                             </Row>
 
                             <Row>
-                              <Col lg="6">
+                              <Col lg="4">
                                 <FormGroup>
                                   <label
                                     className="form-control-label"
@@ -828,7 +821,7 @@ const Company = () => {
                                     className="form-control-alternative"
                                     defaultValue=""
                                     id="accountno"
-                                    placeholder="Account No."
+                                    
                                     type="Number"
                                     value={element.accountno || ""}
                                     onChange={(e) => {
@@ -837,7 +830,7 @@ const Company = () => {
                                   />
                                 </FormGroup>
                               </Col>
-                              <Col lg="6">
+                              <Col lg="4">
                                 <FormGroup>
                                   <label
                                     className="form-control-label"
@@ -849,7 +842,7 @@ const Company = () => {
                                     className="form-control-alternative"
                                     defaultValue=""
                                     id="input-city"
-                                    placeholder="Confirm Account No."
+                                   
                                     type="text"
                                   />
                                 </FormGroup>
