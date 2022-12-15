@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.companybutton{
+    margin-left: 40%;
+}
+
+
+.gentabletbody tr td{
+    margin: 0%;
+    padding: 0.5%;
+    
+}
+
+.customerbutton{
+    margin-left: 10%;
+}
+
+.react-swipeable-view-container  div{
+    overflow: hidden;
+}
+
+.form-control{
+    height: calc(1em + 1.1rem + 1px);
+    padding: 0.25rem 0.75rem;
+}
+
+.MuiBox-root >header{
+    box-shadow: none;
+}
+
+
+.MuiBox-root >header >div >div > div > button{
+    border : 1px solid black !important;
+}
+
+.MuiButtonBase-root.MuiTab-root.MuiTab-textColorInherit.Mui-selected.css-cjctlb-MuiButtonBase-root-MuiTab-root{
+    color: white;
+    background-color: #525f7f;
+}
+
+.MuiBox-root >header >div >div > div{
+    justify-content: flex-end;
+}
+
+.navbar {
+    /* display : none; */
+    padding: 0%;
+    /* background: #4F1C14 !important;  */
+}
+
+.bg-default {
+    background: #f1f1f1 !important;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color : rgb(17, 15, 15) !important;
+}
+
+small,.small{
+    color :  rgb(20, 16, 16) !important;
+}
+
+.py-7 {
+    padding-bottom: 0.3rem !important;
+}
+
+.carousel-item{
+    height : 72vh;
+    width : 100%;
+    object-fit: cover;
+    border-radius: 1%;
+}
+
+.py-5{
+    padding-bottom: 0.5rem !important;
+}
+
+
+
+.input-group .form-control:not(:first-child) {
+    border-left: 0;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+}
+

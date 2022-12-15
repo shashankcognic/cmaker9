@@ -1,0 +1,156 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logincol {
+    
+height: 100vh;
+background-repeat: no-repeat;
+background-color: white;
+background-size: cover;
+background-image: url('../images/loginbackgound.png') ;
+background-blend-mode: multiply;
+}
+
+.loginlogo{
+    width : 50%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.loginheading{
+    margin-left: 10%;
+    color: #1a3447;
+    font-family: Inter,sans-serif;
+    /* font-size: 25px; */
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.logininput{
+    margin-left: 7%;
+    display: block;
+    width: 80%;
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: white;
+    color: #5c636b !important;
+    font-size: 15px;
+    height: 38px;
+    background-clip: padding-box;
+    border: 1px solid rgb(137, 134, 134);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 4px;
+    font-family: Roboto,sans-serif;
+}
+
+.loginbtn{
+    margin-left: 7%;
+    padding: 11px 43px;
+    text-transform: capitalize;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: .3px;
+    font-size: 15px;
+    transition: .25s ease-in-out;
+    background: #0eaf89;
+    color: #fff;
+}
+
+
+/* Company Page Css */
+.companyul{
+
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.companynameheading{
+
+
+padding: 7px 0;
+color: #305881;
+font-size: 12px;
+transition: .2s ease all;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: .5px;
+width: 100%;
+
+}
+
+.Companyli{
+    background: #ededed;
+    border-radius: 7px;
+    margin: 6px 0;
+    padding: 5px 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 14px;
+    gap: 14px;
+}
+
+.companylogodiv{
+    width: 33px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.companylogo{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.companynamediv{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.companyname{
+    max-width: 22ch;
+}
+
+.companydetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.companymainheader{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.companynameheading h3{
+    font-family: Roboto,sans-serif;
+    color : #123967;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+}
+
+.companybuttons{
+    box-sizing: border-box;
+    text-decoration: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+
